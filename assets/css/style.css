@@ -1,0 +1,120 @@
+
+/* global styling */
+*{
+  box-sizing: border-box;
+}
+
+/*styling for body of Password Generator*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9fbfd;
+}
+/*sizing and styling for password display*/
+textarea {
+  max-width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 85px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-style: inset;
+  border-width: medium
+  border-color: none;
+  resize: none;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom:20px;
+  color: hsl(206, 17%, 28%);
+ 
+}
+h1{
+  text-align: center;
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+
+  color: rgba(25, 91, 157, 0.5);
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+}
+
+.card-body {
+  min-height: 100px;
+  justify-content: center;
+}
+
+
+.card-footer {
+  text-align: center;
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/*styling for Get Password Button*/
+.btn {
+  border: none;
+  background-color: #a512ea;
+  color: hsl(0, 0%, 100%);
+  position:static;
+  border-radius: 10px;
+  /*box-shadow:  0 0.4rem 2.0rem 0 rgba(86, 185, 235, 0.5); */
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color:rgb(20, 83, 200);
+  box-shadow: 0 0.4rem 2.0rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.2rem);
+  transition: transform 150ms;
+}
+
+button[disabled] {
+  cursor: default;
+  background: #c0c7cf;
+}
+
+/*sizing and styling for media devices*/
+@media (max-width: 690px) {
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+  #password {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}

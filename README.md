@@ -9,7 +9,8 @@ https://www.owasp.org/index.php/Password_special_characters from the OWASP Found
 
 ## Deployment
 
-https://ogoines.github.io/SecurePasswordProject/
+https://ogoines.github.io/secure-password-generator/
+
 
 When the user clicks on  the "Get Password" button prompt including the length of the characters (8-128) and and choices for character types (Lowercase, Uppercase, Numeric and Special) are displayed.   Once the prompts are answered, the choices are validated a random password displays in a text area. 
 
